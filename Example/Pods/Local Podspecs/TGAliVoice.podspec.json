@@ -1,0 +1,27 @@
+{
+  "name": "TGAliVoice",
+  "version": "0.1.0",
+  "summary": "A short description of TGAliVoice.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dgyiOS/TGAliVoice",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dgyiOS": "dengguangyang@tungee.com"
+  },
+  "source": {
+    "git": "https://github.com/dgyiOS/TGAliVoice.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TGAliVoice/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.1"
+    ]
+  }
+}

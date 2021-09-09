@@ -1,0 +1,6 @@
+framework module TGAliVoice {
+  umbrella header "TGAliVoice-umbrella.h"
+
+  export *
+  module * { export * }
+}

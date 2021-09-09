@@ -7,6 +7,7 @@
 //
 
 #import "TGViewController.h"
+#import "Typeset.h"
 
 @interface TGViewController ()
 
@@ -17,7 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    NSAttributedString *str = @"fuck".typeset.fontSize(18.f).hexColor(0x333333).string;
+    NSLog(@"str --- %@", str);
+    
+    NSAttributedString *str2 = TSAttributedString(@"shit".hexColor(0x123456).fontSize(18.f));
+    NSLog(@"str --- %@", str2);
 }
 
 - (void)didReceiveMemoryWarning
